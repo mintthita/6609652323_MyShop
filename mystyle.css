@@ -99,7 +99,7 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(/resources/vinyl2.jpg) center/cover no-repeat;
+  background: url(resources/vinyl2.jpg) center/cover no-repeat;
   filter: blur(10px) saturate(.9) brightness(.7);
   transform: scale(1.08);
   opacity: .65;
