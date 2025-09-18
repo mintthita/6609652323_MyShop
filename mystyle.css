@@ -1,0 +1,22 @@
+:root{
+  --bg:#0f1214;        
+  --panel:#171b1f;    
+  --accent:#20e3ad;   
+  --text:#e7ecef;      
+  --muted:#a7b0b6;     
+  --ring: rgba(32,227,173,.25);
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, Segoe UI, Roboto, Arial, sans-serif; }
+a{ color:var(--text); text-decoration:none; }
+.container{ width:min(1100px, 92%); margin:auto; }
+
+.site-header{
+  position:sticky; top:0; z-index:20;
+  background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,0));
+  backdrop-filter: blur(6px);
+}
+
+.logo{ margin:16px 0; font-weight:700; letter-spacing:.5px; }
+.main-nav{ display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin:8px 0 18px; }
